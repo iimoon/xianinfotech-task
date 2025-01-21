@@ -1,0 +1,151 @@
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imageContainer {
+  background: rgba(4, 59, 100, 1);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.formHead{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formHead h1{
+    font-weight: 500;
+}
+.formHead p{
+    font-weight: 200;
+}
+.formContainer {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  flex: 1;
+  background: rgba(4, 59, 100, 1);
+  color: #ffffff;
+  padding: 40px;
+}
+
+.formBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px
+}
+
+.formRow {
+  display: flex;
+  gap: 30px;
+}
+.inputIconF {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+
+.inputIconF img {
+  width: 30px;
+  height: 30px;
+}
+.fIcon {
+  position: absolute;
+  right: 10px; /* Position the icon inside the input field */
+  color: #888; /* Icon color */
+  cursor: pointer;
+}
+
+input {
+  padding-left: 30px; /* Adjust to avoid overlap with the icon */
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.inputIcon{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.inputIcon img{
+    width: 30px;
+    height: 30px;
+}
+
+.checkboxContainer {
+    display: flex;
+    flex:1;
+    gap:-10px;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 20px;
+  }
+  .checkboxContainer input{
+    width: unset;
+  }
+  .checkboxLabel {
+    margin-left: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .checkboxLabel span {
+    color: #90e0ef;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .buttons button {
+    border: 1px solid white;
+    padding: 10px 30px;
+    width: 260px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .registerButton {
+    border: 1px solid white;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .registerButton:hover {
+    background-color: #0077b6;
+  }
+  
+  .loginButton {
+    background-color: rgba(4, 59, 100, 1);
+  }
+  
+  .loginButton:hover {
+    background-color: #90e0ef;
+  }
+  

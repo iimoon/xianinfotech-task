@@ -1,0 +1,31 @@
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 40px;
+  background: rgba(4, 59, 100, 1);
+  margin-bottom: 80px;
+}
+
+.navContainer img {
+  width: 165px;
+  height: 69px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 15px;
+}
+.buttonContainer button {
+  padding: 3px 40px;
+  font-weight: 500;
+}
+
+#login {
+  color: rgba(4, 59, 100, 1);
+}
+
+#signup{
+    background: rgba(4, 59, 100, 1);
+    color: white;
+}
